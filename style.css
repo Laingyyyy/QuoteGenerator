@@ -1,0 +1,72 @@
+﻿body {
+    /* Colorscheme + Font */
+    background-color: #E5E5E5;
+
+    /* Display Grid*/
+    display: grid;
+    grid-template-areas:
+"." "Header" "Header" "."
+"." "Quote" "Quote" "."
+"." "Button" "Button" "."
+"." "." "." "";
+}
+
+.header {
+    /* Grid Template */
+    grid-template: "Header";
+
+    /* Colorscheme + font */
+    text-align: center;
+    color: #4A4A4A;
+    font-size: 40px;
+}
+
+.main {
+    /* grid template */
+    grid-template: "Quote";
+
+    /* Colorscheme + font */
+    background-color: white;
+    color: #3E3E3E;
+
+    /* Centering */
+    margin: 5% 20% 5% 20%;
+    border-radius: 10px;
+}
+
+.quoteContainer {
+    text-align: center;
+    font-size: 20px;
+    color: #3E3E3E;
+}
+
+.upperQuote {
+    color: #2F2F2F;
+    font-size: 40px;
+}
+
+.lowerQuote {
+    color: #2F2F2F;
+    font-size: 40px;
+    text-align: right;
+}
+
+.quoteButton {
+    /* Grid Template */
+    grid-template: "Button";
+
+    /* Colorscheme + font */
+    background-color: #595959;
+    color: white;
+
+    /* Centering */
+    margin: 1% 30% 5% 30%;
+    padding: 2% 2% 2% 2%;
+    border-radius: 10px;
+}
+
+.author {
+    text-align: center;
+    font-size: 20px;
+    color: #3E3E3E;
+}
